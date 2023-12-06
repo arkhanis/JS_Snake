@@ -1,3 +1,6 @@
+// lo deje en el minuto 17:50 del video
+
+
 // HTML Elements
 const board = document.getElementById('board');
 const scoreBoard = document.getElementById('scoreBoard');
