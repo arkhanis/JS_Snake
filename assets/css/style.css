@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Inter", sans-serif;
+    scroll-behavior: smooth;
+    transition: all 200ms ease;
+  }
+
+  #board, .boardInfo {
+    max-width: 500px;
+  }
+
+  #board {
+    display: grid;
+    grid-template-columns: (10, 1fr);
+  }
+
+  #start, .boardInfo {
+    font-size: 25px;
+  }
+
+#gameOver {
+    display: none;
+}
+
+.boardInfo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+#start {
+    background-color: #cb404e;
+    border: none;
+    padding: 5px 30px;
+    border-radius: 5px;
+    color: white;
+}
+
+#scoreBoard {
+    display: inline-flex;
+}
+
+.square {
+    aspect-ratio: 1;
+}
+
+.emptySquare {
+    background-color: #456990;
+}
+
+.snakeSquare {
+    background-color: #ccf47f;
+}
+
+.foodSquare {
+    background-color: #f35a69;
+}
