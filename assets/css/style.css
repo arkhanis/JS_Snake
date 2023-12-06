@@ -11,16 +11,20 @@
     transition: all 200ms ease;
   }
 
+  body{
+    padding: 10px;
+  }
+
   #board, .boardInfo {
     max-width: 500px;
   }
 
   #board {
     display: grid;
-    grid-template-columns: (10, 1fr);
+    grid-template-columns: repeat(10, 1fr);
   }
 
-  #start, .boardInfo {
+  #startButton, .boardInfo {
     font-size: 25px;
   }
 
@@ -34,7 +38,7 @@
     margin-top: 10px;
 }
 
-#start {
+#startButton {
     background-color: #cb404e;
     border: none;
     padding: 5px 30px;
